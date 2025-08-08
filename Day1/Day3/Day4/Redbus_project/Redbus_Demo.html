@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redbus</title>
+</head>
+<body>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+">
+  <style>
+    /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 2px;
+  height: 100px;
+  
+  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Booking section */
+.booking-section {
+  padding: 60px 30px;
+  background: url('https://images.unsplash.com/photo-1581091012184-7b61c1c6fbb9') center/cover no-repeat;
+  color: rgb(247, 87, 87);
+  text-align: center;
+}
+
+.booking-section h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  
+}
+
+.booking-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.booking-form input,
+.booking-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.booking-form input {
+  width: 200px;
+}
+
+.booking-form button {
+  background-color: #ed5656;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 400px;
+}
+
+.booking-form button:hover {
+  background-color: #f07878;
+  
+}
+.nav-links li a i,
+.booking-form button i {
+  margin-right: 8px;
+}
+.foot li a{
+        text-decoration: none;
+        color: black;
+    }
+   
+.foot li a:hover{
+    color: rgb(255, 0, 0);
+   }
+.foot li{
+    list-style: none;
+}
+.foot{
+        background-color: rgb(227, 118, 118);
+         display: flex;
+        justify-content: space-evenly;
+        margin-top: 150px;
+       
+        
+}
+/* .follow li i{
+  gap: 30px;
+} */
+  </style>
+  <nav class="navbar">
+    <div class="logo"><img src="./Redbus_bus_Logo.png" width="100px" alt="">
+    <!-- <img src="./Redbus_bus_Logo.png" width=100px><img src="./Train_logo.jpeg"width=100px alt="">
+    -->
+</div> 
+    <ul class="nav-links">
+  <li><a href="#"><i class="fa-solid fa-list"></i> Booking</a></li>
+  <li><a href="#"><i class="fa-solid fa-info"></i></i> Help</a></li>
+  <li><a href="#"><i class="fa-solid fa-circle-user"></i></i> Login</a></li>
+</ul>
+
+  </nav>
+
+  <!-- Booking Section -->
+  <section class="booking-section">
+    <h1>Book Bus Tickets</h1>
+    <div class="booking-form">
+      <input type="text" placeholder="From" />
+      <input type="text" placeholder="To" />
+      <input type="date" />
+      <button><i class="fas fa-search"></i> Search Buses</button>
+
+      
+    </div>
+  </section>
+</body>
+    <footer class="foot">
+ 
+    <ol>
+    <li><u><b>About Redbus</b></u></li>
+    <br>
+    <li><a href="#">Contact us</a></li>
+    <li> <a href="#">Sitemap</a></li>
+    <li><a href="#">Offers</a> </li>
+    <li><a href="#">Careers</a></li>
+    </ol>
+      <ol>
+    <li><u><b>Info</b></u></li>
+    <br>
+    <li><a href="#">T&C</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Blog</a> </li>
+    <li><a href="#">Agent Registration</a></li>
+    </ol>
+      <ol>
+    <li><u><b>Our Partners</u></b></li>
+    <br>
+    <li><a href="#">Insurance Partner</a></li>
+    <li><a href="#">User Agreement</a></li>
+    <li><a href="#">Primo Bus</a> </li>
+    <li><a href="#">Bus</a></li>
+    </ol>
+      <ol>
+        
+    <li><u><b>Follow in</u></b></li>
+    <br>
+    <div class="follow">
+        
+    </div>
+    <li><a href="#"><i class="fa-brands fa-instagram"> </i>instagram</a></li>
+    <li><a href="#"> <i class="fa-brands fa-facebook"></i>Facebook</a></li>
+    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i>Linked in</a> </li>
+    </ol>
+</footer>
+</html>
